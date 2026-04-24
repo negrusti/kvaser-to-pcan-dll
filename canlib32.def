@@ -1,0 +1,20 @@
+LIBRARY canlib32
+EXPORTS
+    ; Core functions used by the host application
+    canInitializeLibrary    @24
+    canOpenChannel          @41
+    canSetBusParams         @73
+    canSetBusOutputControl  @72
+    canBusOn                @5
+    canBusOff               @4
+    canRead                 @56
+    canReadSpecificSkip     @61
+    canWrite                @89
+    canWriteSync            @90
+    canClose                @6
+
+    ; Utility exports the runtime may resolve
+    canGetNumberOfChannels  @21
+    canGetVersion           @22
+    canGetErrorText         @19
+    canTranslateBaud        @84
