@@ -38,6 +38,6 @@ endif()
 set_target_properties(canlib32 PROPERTIES
     OUTPUT_NAME                       "canlib32"
     PREFIX                            ""
-    RUNTIME_OUTPUT_DIRECTORY_RELEASE  "${CMAKE_SOURCE_DIR}/.."
-    RUNTIME_OUTPUT_DIRECTORY_DEBUG    "${CMAKE_SOURCE_DIR}/.."
+    RUNTIME_OUTPUT_DIRECTORY_RELEASE  "${CMAKE_SOURCE_DIR}/dist"
+    RUNTIME_OUTPUT_DIRECTORY_DEBUG    "${CMAKE_SOURCE_DIR}/dist"
 )
